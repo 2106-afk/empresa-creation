@@ -1,0 +1,165 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+/* estilo-servicos.css */
+.servico-paginas {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.servico-paginas .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.servico-paginas h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.servico-paginas .descricao {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.beneficios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.beneficios .item {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1 1 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.beneficios .item:hover {
+  transform: translateY(-5px);
+}
+
+.beneficios .item h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.beneficios .item p {
+  color: #666;
+}
+
+.btn-solicitar {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-solicitar:hover {
+  background-color: #0056b3;
+}
+
+
+/* Cabeçalho */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 100px;
+    width: auto;
+    border-radius: 50px;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+}
+
+/* Menu padrão */
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: greenyellow;
+}
+
+/* Menu hamburguer */
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        width: 100%;
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 1rem;
+    }
+
+    .menu ul li {
+        width: 100%;
+    }
+
+    .menu a {
+        display: block;
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+}
