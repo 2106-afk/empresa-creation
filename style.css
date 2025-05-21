@@ -131,6 +131,130 @@ body {
     font-size: 2rem;
     cursor: pointer;
 }
+/* como-funciona.css */
+.como-funciona {
+  background-color: #fff;
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.como-funciona .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.como-funciona h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.como-funciona .subtitulo {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.etapas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+}
+
+.etapa {
+  background-color: #f1f3f5;
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.etapa:hover {
+  transform: translateY(-5px);
+}
+
+.numero {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.etapa h3 {
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.etapa p {
+  color: #555;
+  font-size: 0.95rem;
+}
+/* inteligencia-artificial.css */
+.inteligencia-artificial {
+  padding: 60px 20px;
+  background-color: #eef4ff;
+  font-family: Arial, sans-serif;
+}
+
+.inteligencia-artificial .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inteligencia-artificial h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #1a2b6d;
+}
+
+.inteligencia-artificial .descricao {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vantagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.vantagens .item {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1 1 260px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.vantagens .item:hover {
+  transform: translateY(-5px);
+}
+
+.vantagens .item h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.vantagens .item p {
+  color: #555;
+}
+
 
 /* Responsividade */
 @media (max-width: 768px) {

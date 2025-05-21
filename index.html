@@ -2,65 +2,125 @@
 <html lang="pt-br">
 
 <head>
-    
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creation arts</title>
+
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creation arts</title>
 </head>
 
 <body>
-    <header class="cabecalho">
+  <header class="cabecalho">
     <div class="logo">
-        <img src="logo empresa 1.png" alt="Logo do site" />
-        <h1>Creation <mark>arts</mark></h1>
+      <img src="logo empresa 1.png" alt="Logo do site" />
+      <h1>Creation <mark>arts</mark></h1>
     </div>
 
     <div class="menu-toggle" id="menu-toggle">&#9776;</div>
 
     <nav class="menu" id="menu">
-        <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="https://translate.google.com.br/?sl=en&tl=pt&text=creation%20arts&op=translate">Contato</a></li>
-        </ul>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="https://translate.google.com.br/?sl=en&tl=pt&text=creation%20arts&op=translate">Contato</a></li>
+      </ul>
     </nav>
-</header>
-<!-- seção-servicos.html -->
-<section class="servico-paginas">
-  <div class="container">
-    <h2>Criação de Páginas Profissionais</h2>
-    <p class="descricao">
-      Transformamos sua ideia em uma página moderna, rápida e responsiva. Ideal para empresas, profissionais autônomos ou projetos pessoais.
-    </p>
-    
-    <div class="beneficios">
-      <div class="item">
-        <h3>Design Personalizado</h3>
-        <p>Criamos páginas com identidade visual única, alinhada à sua marca.</p>
+  </header>
+  <!-- seção-servicos.html -->
+  <section class="servico-paginas">
+    <div class="container">
+      <h2>Criação de Páginas Profissionais</h2>
+      <p class="descricao">
+        Transformamos sua ideia em uma página moderna, rápida e responsiva. Ideal para empresas, profissionais autônomos
+        ou projetos pessoais.
+      </p>
+
+      <div class="beneficios">
+        <div class="item">
+          <h3>Design Personalizado</h3>
+          <p>Criamos páginas com identidade visual única, alinhada à sua marca.</p>
+        </div>
+        <div class="item">
+          <h3>100% Responsivo</h3>
+          <p>Seu site adaptado para computador, tablet e celular.</p>
+        </div>
+        <div class="item">
+          <h3>Alta Performance</h3>
+          <p>Páginas otimizadas para velocidade e ranqueamento no Google (SEO).</p>
+        </div>
       </div>
-      <div class="item">
-        <h3>100% Responsivo</h3>
-        <p>Seu site adaptado para computador, tablet e celular.</p>
-      </div>
-      <div class="item">
-        <h3>Alta Performance</h3>
-        <p>Páginas otimizadas para velocidade e ranqueamento no Google (SEO).</p>
+
+      <a href="#contato" class="btn-solicitar">Solicitar Orçamento</a>
+    </div>
+  </section>
+  <!-- como-funciona.html -->
+  <section class="como-funciona">
+    <div class="container">
+      <h2>Como Funciona o Processo</h2>
+      <p class="subtitulo">Veja como é simples transformar sua ideia em uma página profissional:</p>
+
+      <div class="etapas">
+        <div class="etapa">
+          <span class="numero">1</span>
+          <h3>Entendimento do seu projeto</h3>
+          <p>Conversamos para entender seus objetivos, público e estilo desejado.</p>
+        </div>
+
+        <div class="etapa">
+          <span class="numero">2</span>
+          <h3>Criação do layout</h3>
+          <p>Desenvolvemos o design da página de forma moderna e funcional.</p>
+        </div>
+
+        <div class="etapa">
+          <span class="numero">3</span>
+          <h3>Aprovação e ajustes</h3>
+          <p>Você revisa, aprova e solicita ajustes, se necessário.</p>
+        </div>
+
+        <div class="etapa">
+          <span class="numero">4</span>
+          <h3>Publicação</h3>
+          <p>Seu site vai ao ar com qualidade, rapidez e pronto para receber visitas.</p>
+        </div>
       </div>
     </div>
+  </section>
+  <!-- inteligencia-artificial.html -->
+<section class="inteligencia-artificial">
+  <div class="container">
+    <h2>Projetos com Inteligência Artificial</h2>
+    <p class="descricao">
+      A tecnologia está evoluindo, e os seus projetos também! Utilizo inteligência artificial para acelerar processos, melhorar resultados e criar soluções mais inteligentes e eficientes para o seu site.
+    </p>
 
-    <a href="#contato" class="btn-solicitar">Solicitar Orçamento</a>
+    <div class="vantagens">
+      <div class="item">
+        <h3>Automatização Criativa</h3>
+        <p>Criação de textos, imagens e estruturas otimizadas com apoio da IA.</p>
+      </div>
+      <div class="item">
+        <h3>Mais Eficiência</h3>
+        <p>Desenvolvimento mais rápido e com alto padrão de qualidade.</p>
+      </div>
+      <div class="item">
+        <h3>Soluções Personalizadas</h3>
+        <p>A IA me ajuda a entender melhor o seu público e criar experiências únicas.</p>
+      </div>
+    </div>
   </div>
 </section>
 
-<script>
+
+
+  <script>
     const toggle = document.getElementById('menu-toggle');
     const menu = document.getElementById('menu');
 
     toggle.addEventListener('click', () => {
-        menu.classList.toggle('active');
+      menu.classList.toggle('active');
     });
-</script>
+  </script>
 
 
 
